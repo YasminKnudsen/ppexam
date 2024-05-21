@@ -1,0 +1,235 @@
+/* CSS for ppexam.html */
+body {
+    background-color: #A3B18A;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    font-family: "italianno", cursive;
+}
+
+p {
+    font-family: "mate";
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* Style the navigation bar*/
+.topnav {
+    width: 100%;
+    background-color: #A3B18A;
+    overflow: auto;
+}
+
+/* Style the links inside the navigation bar*/
+.topnav a {
+    float: left;
+    color: #344E41;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    width: 20%;
+    font-family: "italianno", cursive;
+}
+
+/* Change the color of links on hover*/
+.topnav a:hover {
+    background-color: #474839;
+    color: #E3D39E;
+}
+
+/* Add a color to the active/current link*/
+.topnav a.active {
+    background-color: #A3B18A;
+    font-family: "italianno", cursive;
+}
+
+/* Code for the Italianno font*/
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* The big box behind picture on top of page*/
+.picturebox {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: -50px auto;
+}
+
+/* Design for picturebox*/
+.picturebox .box {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/* Big welcome sign above picture*/
+.wsign {
+    position: relative;
+    margin: 400px;
+    margin-top: -280px;
+    font-family: "italianno", cursive;
+    font-size: 60px;
+    color: #474839;
+}
+
+/* Heading for 'om mig'*/
+.ommigsign {
+    background-color: #474839;
+    height: 70px;
+    width: 150px;
+    padding: 12px 22px;
+    font-family: "italianno", cursive;
+    font-size: 40px;
+    color: #E3D39E;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 600px;
+}
+
+/* The big box behind picture and text in 'om mig'*/
+.ommigbox {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: -550px auto;
+}
+
+/* Design for picturebox*/
+.ommigbox .box {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+img {
+    height: 300px;
+    float: left;
+    margin: 15px;
+}
+
+/* Heading for 'projekter'*/
+.projektersign {
+    background-color: #474839;
+    height: 70px;
+    width: 150px;
+    padding: 12px 22px;
+    font-family: "italianno", cursive;
+    font-size: 40px;
+    color: #E3D39E;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 600px;
+    margin-top: 950px;
+}
+
+.containerpbox {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: -550px auto;
+}
+
+.containerpbox .pbox1 {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+.containerpbox .pbox2 {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+.pbox2 img {
+    float: right;
+}
+
+.containerpbox .pbox3 {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+.containerpbox .pbox4 {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+.pbox4 img {
+    float: right;
+}
+
+.containerpbox .pbox5 {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+.containerpbox .pbox6 {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #E3D39E;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 2%;
+}
+
+.pbox6 img {
+    float: right;
+}
