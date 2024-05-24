@@ -16,7 +16,12 @@ p {
 
 h2 {
     font-size: 30px;
-    color: #474839;
+    color: #E3D39E;
+    background-color: #474839;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Style the navigation bar*/
@@ -264,10 +269,9 @@ img {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #A3B18A; 
     box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
     resize: vertical
 }
   
@@ -278,6 +282,7 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
 }
   
 /* When moving the mouse over the submit button, add a darker green color */
