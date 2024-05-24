@@ -62,6 +62,16 @@ html {
     font-style: normal;
 }
 
+/* Big welcome sign above picture*/
+.wsign {
+    position: relative;
+    margin: 485px;
+    margin-top: -280px;
+    font-family: "italianno", cursive;
+    font-size: 60px;
+    color: #474839;
+}
+
 /* The big box behind picture on top of page*/
 .picturebox {
     position: relative;
@@ -80,16 +90,6 @@ html {
     margin: 15px;
     box-sizing: border-box;
     overflow: auto;
-}
-
-/* Big welcome sign above picture*/
-.wsign {
-    position: relative;
-    margin: 400px;
-    margin-top: -280px;
-    font-family: "italianno", cursive;
-    font-size: 60px;
-    color: #474839;
 }
 
 /* Heading for 'om mig'*/
